@@ -1,6 +1,6 @@
-package com.cortezalan.problems.problem2.utils;
+package com.cortezalan.problems.problem2.utils.proteins;
 
-import com.cortezalan.problems.problem2.utils.proteins.*;
+import com.cortezalan.problems.problem2.utils.DIET_PLAN;
 
 import java.util.Random;
 
@@ -16,7 +16,7 @@ public class ProteinFactory {
         return instance;
     }
 
-    public static Protein chooseCarbOption(DIET_PLAN dietPlan) {
+    public static Protein chooseProteinOption(DIET_PLAN dietPlan) {
         Random random = new Random();
 
         switch(dietPlan) {

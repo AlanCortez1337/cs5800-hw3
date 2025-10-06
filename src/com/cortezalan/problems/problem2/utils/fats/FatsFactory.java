@@ -1,6 +1,6 @@
-package com.cortezalan.problems.problem2.utils;
+package com.cortezalan.problems.problem2.utils.fats;
 
-import com.cortezalan.problems.problem2.utils.fats.*;
+import com.cortezalan.problems.problem2.utils.DIET_PLAN;
 
 import java.util.Random;
 
@@ -16,7 +16,7 @@ public class FatsFactory {
         return instance;
     }
 
-    public static Fat chooseCarbOption(DIET_PLAN dietPlan) {
+    public static Fat chooseFatOption(DIET_PLAN dietPlan) {
         Random random = new Random();
 
         switch(dietPlan) {

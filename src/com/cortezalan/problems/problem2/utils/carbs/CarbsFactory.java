@@ -1,6 +1,6 @@
-package com.cortezalan.problems.problem2.utils;
+package com.cortezalan.problems.problem2.utils.carbs;
 
-import com.cortezalan.problems.problem2.utils.carbs.*;
+import com.cortezalan.problems.problem2.utils.DIET_PLAN;
 
 import java.util.Random;
 
